@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AnchorComponent } from './atoms/anchor/anchor.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AnchorComponent
+  ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: []
+  bootstrap: [],
+  exports: [AnchorComponent]
 })
 export class ComponentsModule { }
