@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'app-atoms-anchor',
@@ -6,6 +6,6 @@ import { Component } from "@angular/core";
     styleUrls: ['./anchor.component.scss']
 })
 export class AnchorComponent {
-    id_anchor = "#teste"
-    text = "About"
+    @Input() idAnchor: string;
+    @Input() isActive: boolean;
 }
