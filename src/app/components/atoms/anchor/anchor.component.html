@@ -1,12 +1,9 @@
 <a [href]="idAnchor">
-  <span
-    class="text-base font-sans font-semibold leading-8"
-    [ngClass]="{
-      'text-orange-400': isActive,
+    <span class="text-base font-sans font-semibold leading-8" [ngClass]="{
+      'text-orange-300': isActive,
       'text-white': !isActive,
       'hover:text-slate-300': !isActive
-    }"
-  >
-    <ng-content></ng-content>
-  </span>
+    }">
+        <ng-content></ng-content>
+    </span>
 </a>
