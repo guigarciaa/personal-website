@@ -6,6 +6,7 @@ interface ISection {
   anchor: string;
   active: boolean;
 }
+
 @Component({
   selector: 'app-molecules-navbar',
   templateUrl: 'navbar.component.html',
