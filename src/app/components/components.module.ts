@@ -6,8 +6,8 @@ import { NavbarComponent } from './organisms/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SubTitleComponent } from './atoms/sub-title/sub-title.component';
 import { TitleSectionComponent } from './molecules/title-section/title-section.component';
-import { ButtonContrastComponent } from './atoms/button-contrast/button-contrast.component';
 import { ButtonComponent } from './atoms/button/button.component';
+import { ButtonSmallComponent } from './atoms/button-small/button-small.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +16,8 @@ import { ButtonComponent } from './atoms/button/button.component';
     TitleComponent,
     SubTitleComponent,
     TitleSectionComponent,
-    ButtonContrastComponent,
-    ButtonComponent
+    ButtonComponent,
+    ButtonSmallComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule],
   providers: [],
@@ -28,8 +28,8 @@ import { ButtonComponent } from './atoms/button/button.component';
     TitleComponent,
     SubTitleComponent,
     TitleSectionComponent,
-    ButtonContrastComponent,
-    ButtonComponent
+    ButtonComponent,
+    ButtonSmallComponent,
   ],
 })
 export class ComponentsModule {}
