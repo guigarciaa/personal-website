@@ -1,0 +1,13 @@
+<button
+  *ngIf="!fullColor"
+  class="text-white font-semibold py-3 px-6 border rounded border-orange-300 hover:bg-orange-200 hover:text-inherit transition">
+  <ng-container *ngTemplateOutlet="content"></ng-container>
+</button>
+
+<button
+  *ngIf="fullColor"
+  class="font-semibold bg-orange-300 py-3 px-8 rounded hover:bg-orange-200 hover:text-inherit transition">
+  <ng-container *ngTemplateOutlet="content"></ng-container>
+</button>
+
+<ng-template #content><ng-content></ng-content></ng-template>
