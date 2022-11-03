@@ -8,6 +8,7 @@ import { SubTitleComponent } from './atoms/sub-title/sub-title.component';
 import { TitleSectionComponent } from './molecules/title-section/title-section.component';
 import { ButtonComponent } from './atoms/button/button.component';
 import { ButtonSmallComponent } from './atoms/button-small/button-small.component';
+import { SimpleTextComponent } from './atoms/simple-text/simple-text.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ButtonSmallComponent } from './atoms/button-small/button-small.componen
     TitleSectionComponent,
     ButtonComponent,
     ButtonSmallComponent,
+    SimpleTextComponent
   ],
   imports: [BrowserModule, FontAwesomeModule],
   providers: [],
@@ -30,6 +32,7 @@ import { ButtonSmallComponent } from './atoms/button-small/button-small.componen
     TitleSectionComponent,
     ButtonComponent,
     ButtonSmallComponent,
+    SimpleTextComponent
   ],
 })
 export class ComponentsModule {}
