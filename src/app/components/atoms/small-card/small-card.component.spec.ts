@@ -1,18 +1,17 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { ComponentsModule } from '../../components.module';
-import { TitleSectionComponent } from './title-section.component';
+import { SmallCardComponent } from './small-card.component';
 
-describe('TitleSectionComponent', () => {
+describe('SmallCardComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RouterTestingModule,ComponentsModule],
-      declarations: [TitleSectionComponent],
+      imports: [RouterTestingModule],
+      declarations: [SmallCardComponent],
     }).compileComponents();
   });
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(TitleSectionComponent);
+    const fixture = TestBed.createComponent(SmallCardComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
