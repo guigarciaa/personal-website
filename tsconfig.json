@@ -20,7 +20,12 @@
     "module": "es2020",
     "lib": ["es2020", "dom"],
     "esModuleInterop": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@atoms/*": ["./src/app/components/atoms/*"],
+      "@molecules/*": ["./src/app/components/molecules/*"],
+      "@organisms/*": ["./src/app/components/organisms/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

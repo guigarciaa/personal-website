@@ -7,9 +7,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SubTitleComponent } from './atoms/sub-title/sub-title.component';
 import { TitleSectionComponent } from './molecules/title-section/title-section.component';
 import { ButtonComponent } from './atoms/button/button.component';
-import { ButtonSmallComponent } from './atoms/button-small/button-small.component';
+import { SmallButtonComponent } from './atoms/small-button/small-button.component';
 import { SimpleTextComponent } from './atoms/simple-text/simple-text.component';
 import { SmallCardComponent } from './atoms/small-card/small-card.component';
+import { SmallIconComponent } from './atoms/small-icon/small-icon.component';
+import { SmallCardInfosComponent } from './organisms/small-card-infos/small-card-infos.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +21,11 @@ import { SmallCardComponent } from './atoms/small-card/small-card.component';
     SubTitleComponent,
     TitleSectionComponent,
     ButtonComponent,
-    ButtonSmallComponent,
+    SmallButtonComponent,
     SimpleTextComponent,
-    SmallCardComponent
+    SmallCardComponent,
+    SmallIconComponent,
+    SmallCardInfosComponent
   ],
   imports: [BrowserModule, FontAwesomeModule],
   providers: [],
@@ -33,9 +37,11 @@ import { SmallCardComponent } from './atoms/small-card/small-card.component';
     SubTitleComponent,
     TitleSectionComponent,
     ButtonComponent,
-    ButtonSmallComponent,
+    SmallButtonComponent,
     SimpleTextComponent,
-    SmallCardComponent
+    SmallCardComponent,
+    SmallIconComponent,
+    SmallCardInfosComponent
   ],
 })
 export class ComponentsModule {}

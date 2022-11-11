@@ -1,17 +1,17 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { ButtonSmallComponent } from './button-small.component';
+import { SmallButtonComponent } from './small-button.component';
 
-describe('ButtonSmallComponent', () => {
+describe('SmallButtonComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [ButtonSmallComponent],
+      declarations: [SmallButtonComponent],
     }).compileComponents();
   });
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(ButtonSmallComponent);
+    const fixture = TestBed.createComponent(SmallButtonComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
