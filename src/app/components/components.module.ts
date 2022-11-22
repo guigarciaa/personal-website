@@ -12,6 +12,7 @@ import { SimpleTextComponent } from './atoms/simple-text/simple-text.component';
 import { SmallCardComponent } from './atoms/small-card/small-card.component';
 import { SmallIconComponent } from './atoms/small-icon/small-icon.component';
 import { SmallCardInfosComponent } from './organisms/small-card-infos/small-card-infos.component';
+import { BigPictureComponent } from '@atoms/big-picture/big-picture.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SmallCardInfosComponent } from './organisms/small-card-infos/small-card
     SimpleTextComponent,
     SmallCardComponent,
     SmallIconComponent,
-    SmallCardInfosComponent
+    SmallCardInfosComponent,
+    BigPictureComponent
   ],
   imports: [BrowserModule, FontAwesomeModule],
   providers: [],
@@ -41,7 +43,8 @@ import { SmallCardInfosComponent } from './organisms/small-card-infos/small-card
     SimpleTextComponent,
     SmallCardComponent,
     SmallIconComponent,
-    SmallCardInfosComponent
+    SmallCardInfosComponent,
+    BigPictureComponent
   ],
 })
 export class ComponentsModule {}
