@@ -1,0 +1,13 @@
+<section id="#home" class="flex flex-col items-center p-10">
+  <h1
+    class="font-semibold text-white text-center text-2xl md:text-4xl tracking-wide">
+    <span class="text-base leading-8">Hello, I'm</span><br />
+    Guilherme Garcia<br />
+    <span class="text-base leading-8 text-orange-300">Software Engineer</span>
+  </h1>
+  <div class="flex justify-center space-x-12 mt-9">
+    <app-atoms-button>Download CV</app-atoms-button>
+    <app-atoms-button [fullColor]="true">About Me</app-atoms-button>
+  </div>
+  <app-atoms-big-picture class="mt-9 rounded-lg" [src]="'assets/images/hi.webp'"></app-atoms-big-picture>
+</section>

@@ -9,4 +9,5 @@ import { TypeIcon } from '@atoms/small-icon/small-icon.component';
 export class SmallCardInfosComponent {
     typeIcon = TypeIcon;
     faIcon = 'faBars';
+    title = 'Completed';
 }
