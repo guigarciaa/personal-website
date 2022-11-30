@@ -1,9 +1,9 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: "app-atoms-anchor",
-  templateUrl: "anchor.component.html",
-  styleUrls: ["./anchor.component.scss"],
+  selector: 'app-atoms-anchor',
+  templateUrl: 'anchor.component.html',
+  styleUrls: ['./anchor.component.scss'],
 })
 export class AnchorComponent {
   @Input() idAnchor: string;
