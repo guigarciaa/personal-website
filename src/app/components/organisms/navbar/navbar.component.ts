@@ -18,7 +18,8 @@ export class NavbarComponent {
   faTimes = faTimes;
 
   sections: ISection[] = [
-    { name: 'About', anchor: '#About', active: true },
+    { name: 'Home', anchor: '#Home', active: true },
+    { name: 'About', anchor: '#About', active: false },
     { name: 'Experience', anchor: '#Experience', active: false },
     { name: 'Services', anchor: '#Services', active: false },
     { name: 'Portfolio', anchor: '#Portfolio', active: false },
